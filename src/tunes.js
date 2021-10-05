@@ -2,6 +2,9 @@ import { make } from './ui';
 import bgIcon from './svg/background.svg';
 import borderIcon from './svg/border.svg';
 import stretchedIcon from './svg/stretched.svg';
+import leftAlign from './svg/align-left.svg';
+import centerAlign from './svg/align-center.svg';
+import rightAlign from './svg/align-right.svg';
 
 /**
  * Working with Block Tunes
@@ -41,6 +44,21 @@ export default class Tunes {
         name: 'withBackground',
         icon: bgIcon,
         title: 'With background',
+      },
+      {
+        name: 'alignLeft',
+        icon: leftAlign,
+        title: 'Align left',
+      },
+      {
+        name: 'alignCenter',
+        icon: centerAlign,
+        title: 'Align center',
+      },
+      {
+        name: 'alignRight',
+        icon: rightAlign,
+        title: 'Align right',
       },
     ];
   }
